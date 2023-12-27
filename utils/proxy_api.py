@@ -8,8 +8,6 @@ from loguru import logger
 from aiohttp_proxy import ProxyConnector
 from concurrent.futures import ThreadPoolExecutor
 
-os.chdir(os.path.dirname(os.path.abspath(sys.argv[0])))
-
 VALIDATOR_URL = f"https://httpbin.org/ip"
 
 
