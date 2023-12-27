@@ -2,8 +2,6 @@
 from contextlib import asynccontextmanager
 import os, sys, time
 
-os.chdir(os.path.dirname(os.path.abspath(sys.argv[0])))
-
 import nest_asyncio
 from fastapi import FastAPI
 from utils.deepl_api import DeeplTranslator
