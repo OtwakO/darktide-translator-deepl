@@ -1,6 +1,6 @@
 aiohttp==3.8.6
 aiohttp-proxy==0.1.2
-fastapi==0.104.1
+fastapi[all]
 loguru==0.7.2
 nest-asyncio==1.5.8
 PyDeepLX==1.0.4
