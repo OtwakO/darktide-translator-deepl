@@ -37,3 +37,6 @@ async def translate_sentences(data: dict):
     )
     print(response)
     return {"Translation": response}
+
+if __name__ == "__main__":
+    uvicorn.run("server:app", port=PORT, reload=True)
