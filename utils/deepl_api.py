@@ -5,10 +5,6 @@ from PyDeepLX import PyDeepLX
 from .proxy_api import ProxyGen
 from loguru import logger
 
-
-os.chdir(os.path.dirname(os.path.abspath(sys.argv[0])))
-
-
 class DeeplTranslator:
     def __init__(self):
         self.ProxyGen = ProxyGen()
