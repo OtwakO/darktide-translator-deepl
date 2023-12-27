@@ -6,7 +6,7 @@ os.chdir(os.path.dirname(os.path.abspath(sys.argv[0])))
 
 import nest_asyncio
 from fastapi import FastAPI
-from deepl_api import DeeplTranslator
+from utils.deepl_api import DeeplTranslator
 
 nest_asyncio.apply()
 
